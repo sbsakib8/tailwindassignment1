@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="htmltag">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css link  -->
+     <link rel="stylesheet" href="main.css">
+
+     <!-- typed script cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+
+    <title>CREATIVES FOU YOU</title>
+</head>
+<body class="font-plus bg-white dark:text-white dark:bg-darkColorlight">
+   
+     <!--++++++++++ header section start+++++++++++++ -->
+     <header class="bg-white fixed top-0 left-0 w-full z-50">
+        <nav class="container relative h-14 flex justify-evenly items-center  bg-white dark:text-white dark:bg-darkColorlight">
+          <div>
+             <a href="#" class="text-2xl uppercase font-oswald">
+              <img src="img/logo 1.png" alt="" >
+             </a>
+          </div>
+      
+          <div class=" hidden absolute top-0 left-0 w-full py-14  border-b border-secondaryColor md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto lg:mr-36" id="nav-manu">
+              <ul class="flex flex-col gap-7 text-center md:flex-row">
+                  <li>
+                      <a href="#home" class=" navlink hover:text-secondaryColor  ease-in duration-200">Home</a>
+                  </li>
+                  <li>
+                      <a href="#about" class="navlink hover:text-secondaryColor ease-in duration-200">About Us</a>
+                  </li>
+                  <li>
+                      <a href="#upskill" class="navlink hover:text-secondaryColor ease-in duration-200">Upskill</a>
+                  </li>
+                  
+                  <li>
+                      <a href="#contact" class="navlink hover:text-secondaryColor ease-in duration-200">Contact us </a>
+                  </li>
+              </ul>
+              <!-- close icon -->
+              <div class="absolute top-[0.7rem] right-9 text-2xl cursor-pointer md:hidden" id="close">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 cursor-pointer text-xl md:hidden">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                  </svg>
+                  
+              </div>
+          </div>
+          <div class="flex items-center gap-4 md:ml-4 lg:ml-0">
+            <button class="bg-[#F44335] py-1 px-2 rounded-lg text-white hidden md:block">Register Interest</button>
+            <!-- moon icon -->
+           <button id="switch">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 cursor-pointer ml-5 text-xl" >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+            </svg>
+           </button>
+          
+              <!-- manu icon -->
+               <div id="hemderger">
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 cursor-pointer text-xl md:hidden">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+
+              </div>
+          </div>
+      
+        </nav>
+         </header>
+        <!--++++++++++ header section end +++++++++++++ -->
+        <!-- ====================================== -->
+         <!-- home section start -->
+         <section class="bg-primaryColor dark:text-white dark:bg-darkColorlight" id="home">
+           <div class="container mx-auto lg:pl-7 flex flex-col md:flex-row">
+            <div class="order-2 md:order-1">
+                <h3 class="font-bold text-lg mt-7">Discover <span class="text-secondaryColor">-</span> Interact <span class="text-secondaryColor">-</span> Engage </h3>
+                <h1 class="font-bold text-6xl text-paragraphHome leading-[80.64px]">Google <br>
+                    <span class="text-secondaryColor border-b-2 border-secondaryColor typing"></span><br>
+                     Certificate</h1>
+                     <p class="my-12 font-normal text-lg leading-[27px] text-paragraphHome">This is your path to a career in IT. In this program, you’ll learn in- <br> demand skills with no degree or experience required. </p>
+
+                     <div class="flex flex-col md:flex-row gap-10 text-center ">
+                        <div class="">
+                          <h2>
+                            <span id="count1" class="count"></span>
+                          </h2>
+                          <p class="count_text">Videos </p>
+                        </div>
+                        <div class="">
+                          <h2>
+                            <span id="count2" class="count"></span>
+                          </h2>
+                          <p  class="count_text">Readings</p>
+                        </div>
+                        <div class="">
+                          <h2>
+                            <span id="count3" class="count"></span>
+                          </h2>
+                          <p class="count_text">Quizzes</p>
+                        </div>
+                        <div class="">
+                          <h2>
+                            <span id="count4" class="count"></span>
+                          </h2>
+                          <p class="count_text"> Exercises</p>
+                        </div>
+                        <div class="">
+                            <h2>
+                              <span id="count5" class="count"></span>
+                            </h2>
+                            <p class="count_text"> Assigments </p>
+                          </div>
+                        </div>
+
+                        <div class="mt-10 ml-3 md:ml-0 flex flex-col md:flex-row">
+                            <button class="bg-secondaryColor w[136px] h-[58px] rounded-lg py-2 px-16 text-center font-normal text-lg leading-[27px] dark:text-black hover:bg-white">Sign up</button>
+                            <button class="bg-white w[136px] h-[58px] rounded-lg py-2 px-16 text-center font-normal text-lg leading-[27px] border ml-5 mt-6 md:mt-0 dark:text-black hover:bg-secondaryColor  border-none">Learn more</button>
+                            
+                          </div>
+                      </div>
+<!-- section pic -->
+            <div class=" order-1 md:order-2 hidden lg:block">
+                <div class="relative rounded-full bg-hero-pattern w-96 h-96 bg-no-repeat bg-cover mt-10 lg:ml-40">
+                 
+                <img src="img/Vector 1.png" alt="" class="absolute bottom-[-50px] right-30">
+                <img src="img/Vector 1.png" alt="" class="absolute  top-[50px] right-1 w-32">
+                <img src="img/Ellipse 59.png" alt="" class="absolute bottom-8 right-">
+                <img src="img/Ellipse 58.png" alt="" class="absolute top-[-20px] right-[50px] ">
+                </div>
+            </div>
+           </div>
+
+           <!-- logo section start -->
+            <section class="bg-white w-full md:px-10 md:mt-10 dark:bg-gray-800 ">
+              <div class="flex flex-col md:flex-row  justify-between items-center md:divide-x-2 divide-[##D1D3D4] pb-4 ">
+                <div class="w-[322px]">
+                  <p class="font-normal text-lg text-blackColor dark:text-white">Pave your path to career success by gaining  a  professional  Google certificate with the support of C4U</p>
+                </div>
+
+                <div class="">
+                  <img src="img/Google.png" alt="loge" class="md:ml-5">
+                </div>
+                <div class=" md:mb-0">
+                  <img src="img/Work & Pensions.png" alt="loge">
+                </div>
+                <div class="h-[130px] ">
+                  <img src="img/logo 1.png" alt="" class="md:mt-12 md:ml-4 mt-7 ">
+                </div>
+              </div>
+            </section>
+            <!-- logo section end -->
+         </section>
+<!-- learn section start -->
+         <section class="bg-primaryColor dark:text-white dark:bg-darkColorlight w-full">
+            <div class="flex flex-col lg:flex-row container mx-auto md:px-5 gap-10">
+             <div class="divide-y divide-secondaryColor bg-white dark:bg-gray-800  lg:w-1/2 w-full md:h-[599px] h-[799px] rounded-2xl shadow-lg ">
+              <h2 class="primary_text ">What you will learn</h2>
+              <div class="">
+                
+                <div class="learn_div mt-16">
+                  <img src="img/Checkmark.png" alt="">
+                  <h4 class="paragraph_text">Gain skills required to succeed in an entry-level IT job</h4>
+                </div>
+                <div class="learn_div">
+                  <img src="img/Checkmark.png" alt="">
+                  <h4 class="paragraph_text"> Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</h4>
+                </div>
+                <div class="learn_div">
+                  <img src="img/Checkmark.png" alt="">
+                  <h4 class="paragraph_text">Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</h4>
+                </div>
+                <div class="learn_div">
+                  <img src="img/Checkmark.png" alt="">
+                  <h4 class="paragraph_text">Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</h4>
+                </div>
+                </div>
+             </div>
+                  
+
+                    <div class="bg-white dark:bg-gray-800 lg:w-1/2 w-full h-[599px] rounded-2xl shadow-lg">
+                        <img src="img/IT_social 1.png" alt="" class="rounded-2xl">
+                        <h2 class="primary_text">Skills you will gain</h2>
+                       <div class="md:ml-7">
+                        <div class="mt-6 grid grid-cols-2 md:grid-cols-3" >
+                          <span class="skill_tag">Debugging</span>
+                          <span class="skill_tag">Customer Service</span>
+                          <span class="skill_tag">Customer Support</span>
+                          
+                       </div>
+                       <div class="mt-6  grid grid-cols-2 md:grid-cols-3">
+                         <span class="skill_tag">Domain Name System (DNS)</span>
+                         <span class="skill_tag">Network Model</span>
+                         <span class="skill_tag">Linux</span>
+                       </div>
+                       <div class="mt-6  grid grid-cols-2 md:grid-cols-3">
+                         <span class="skill_tag">Encryption Algorithms </span>
+                         <span class="skill_tag">Network Protocols</span>
+                       </div>
+                       <div class="mt-6 grid grid-cols-2 md:grid-cols-3">
+                         <span class="skill_tag">Ipv4</span>
+                         <span class="skill_tag">Trouble</span>
+                         <span class="skill_tag">Binary Code</span>
+                         <span class="skill_tag">Cloud Computing</span>
+                       </div>
+                       </div>
+                    </div>
+                </div>
+              
+         </section>
+<!-- learn section end -->
+<!-- job section start -->
+<section class="bg-primaryColor dark:text-white dark:bg-darkColorlight w-full">
+  <div class="flex flex-col lg:flex-row container mx-auto md:px-5 gap-10 pb-10">
+   <div class="divide-y divide-secondaryColor bg-white dark:bg-gray-800 lg:w-1/2 md:h-[500px] h-[600px] rounded-2xl shadow-lg">
+    <h2 class="primary_text ">Jobs Assocaited with Certificate </h2>
+
+   <div class="flex">
+    <div class="">  
+      <div class="learn_div mt-16">
+        <img src="img/Checkmark (1).png" alt="">
+        <h4 class="paragraph_text">Database administrator</h4>
+      </div>
+      <div class="learn_div">
+        <img src="img/Checkmark (1).png" alt="">
+        <h4 class="paragraph_text">Tech support specialist</h4>
+      </div>
+      <div class="learn_div">
+        <img src="img/Checkmark (1).png" alt="">
+        <h4 class="paragraph_text">IT specialist</h4>
+      </div>
+      <div class="learn_div">
+        <img src="img/Checkmark (1).png" alt="">
+        <h4 class="paragraph_text">Systems analyst</h4>
+      </div>
+      <div class="learn_div">
+        <img src="img/Checkmark (1).png" alt="">
+        <h4 class="paragraph_text">Network engineer</h4>
+      </div>
+      </div>
+
+      <div class="">  
+        <div class="learn_div mt-16">
+          <img src="img/Checkmark (1).png" alt="">
+          <h4 class="paragraph_text">Help desk technician</h4>
+        </div>
+        <div class="learn_div">
+          <img src="img/Checkmark (1).png" alt="">
+          <h4 class="paragraph_text">IT support spcialist</h4>
+        </div>
+        <div class="learn_div">
+          <img src="img/Checkmark (1).png" alt="">
+          <h4 class="paragraph_text">IT specialist</h4>
+        </div>
+        <div class="learn_div">
+          <img src="img/Checkmark (1).png" alt="">
+          <h4 class="paragraph_text">Computer user specialist</h4>
+        </div>
+        <div class="learn_div">
+          <img src="img/Checkmark (1).png" alt="">
+          <h4 class="paragraph_text">IT assitant </h4>
+        </div>
+        </div>
+    </div>
+   </div>
+        
+
+          <div class="bg-white lg:w-1/2 w-full h-[500px] rounded-full">
+             <img src="img/IT Support 1.png" alt="" class="h-[500px]"> 
+            
+          </div>
+      </div>
+    
+</section>
+<!-- job section end -->
+<!-- number count section start -->
+<section class=""> 
+  <div class="bg-white w-full flex flex-col md:flex-row justify-between md:h-[450px] h-[750px] container mx-auto md:px-5 dark:text-white dark:bg-darkColorlight">
+      <div class="">
+        <h1 class="font-bold md:text-6xl text-3xl  leading-[60px] text-[#2D3142] mt-7 dark:text-white">There are 5 Courses in this Professional Certificate</h1>
+        <div class="mt-32 flex flex-col md:flex-row gap-10">
+          <p class="count_number bg-greenColor">Course  1 </p>
+          <p class="count_number">Course  2 </p>
+          <p class="count_number">Course  3 </p>
+          <p class="count_number">Course  4 </p>
+          <p class="count_number">Course  5 </p>
+        </div>
+      </div>
+      <div class="">
+        <img src="img/Group 238902.png" alt="loge" class="w-[367.73px] h-[427.55px] hidden lg:block">
+      </div>
+  </div>
+</section>
+<!-- number count section end -->
+<!--count pic section start -->
+
+    <section class="bg-primaryColor dark:text-white dark:bg-darkColorlight ">
+      <div class="container mx-auto md:px-5">
+        <!-- count 1 -->
+        <div>
+          <img src="img/Group 238901.png" alt="">
+        </div>
+        <div class="">
+          <img src="img/Connector Vector.png" alt="">
+        </div>
+        <!-- count 2 -->
+        <div>
+          <img src="img/Group 238901.png" alt="">
+        </div>
+        <div class="">
+          <img src="img/Connector Vector (1).png" alt="">
+        </div>
+        <!-- count 3 -->
+        <div>
+          <img src="img/Group 238901.png" alt="">
+        </div>
+        <div class="">
+          <img src="img/Connector Vector (2).png" alt="">
+        </div>
+        <!-- count 4 -->
+        <div>
+          <img src="img/Group 238901.png" alt="">
+        </div>
+        <div class="">
+          <img src="img/Connector Vector (3).png" alt="">
+        </div>
+        <!-- count 5 -->
+        <div>
+          <img src="img/Group 238901.png" alt="">
+        </div>
+        
+      </div>
+    </section>
+
+<!--footer site section start -->
+    <section class="bg-footer-site w-full h-[500px] relative">
+      <div class="container mx-auto md:px-5">
+           <div class=" sm:w-[590px] h-[435px] rounded-md bg-white dark:bg-gray-800 px-10 sm:py-16 py-5 absolute bottom-7">
+              <img src="img/“.png" alt="">
+              <h3 class="font-bold sm:text-2xl text-lg leading-[32.76px] text-paragraphHome sm:mt-10 mt-3">I worked in retail and needed to make a change. The certificate is really designed for you to go at your own pace. This is something that anybody can do</h3>
+              <p class="font-bold sm:text-lg text-sm sm:mt-16 mt-3 leading-[22.68px] text-[#F9CCC7]">Daniel, IT Support Specialist at Central Community College and Google IT Support Certificate graduate</p>
+           </div>
+      </div>
+    </section>
+<!--footer site section end -->
+    <!-- footer section start -->
+     <section class="bg-white w-full lg:h-[383px] dark:text-white dark:bg-darkColorlight">
+       <div class="container mx-auto lg:px-10 md:px-5">
+          <div class="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 ">
+<!-- 1 -->
+            <div class="">
+              <img src="img/logo 1.png" alt="">
+              <p class="font-light text-base text-[#20484F] dark:text-white">Level39 <br>
+                One Canada Square,<br>
+                Canary Wharf, <br>
+                London,<br>
+                E14 5AB</p>
+            </div>
+            <!-- 2 -->
+            <div>
+              <h3 class="font-bold text-lg text-[#20484F] dark:text-white">Home</h3>
+              <p class="footer_paragraph">Collaborations</p>
+              <p class="footer_paragraph">Statistics</p>
+              <p class="footer_paragraph">How It Works </p>
+              <p class="footer_paragraph">Testimonials </p>
+            </div>
+            <!-- 3 -->
+            <div class="mt-10 md:mt-0">
+              <h3 class="font-bold text-lg text-[#20484F] dark:text-white">About Us</h3>
+              <p class="footer_paragraph">Who We Are</p>
+              <p class="footer_paragraph">Mission statement </p>
+              <p class="footer_paragraph">Our Vision </p>
+              <p class="footer_paragraph">The  Team </p>
+            </div>
+            <!-- 4 -->
+            <div class="mt-10 lg:mt-0">
+              <h3 class="font-bold text-lg text-[#20484F] dark:text-white">Upskill</h3>
+              <p class="footer_paragraph">It Support </p>
+              <p class="footer_paragraph">Project Managment </p>
+              <p class="footer_paragraph">Data Analysts</p>
+              <p class="footer_paragraph">Ux Design</p>
+            </div>
+            <!-- 5 -->
+            <div class="mt-10 lg:mt-0">
+              <h3 class="font-bold text-lg text-[#20484F] dark:text-white">Ux Design</h3>
+              <p class="footer_paragraph">Your message </p>
+              <p class="footer_paragraph">Email </p>
+              <p class="footer_paragraph">Phone number </p>
+              <p class="footer_paragraph">Linkedin </p>
+            </div>
+          </div>
+       </div>
+     </section>
+<!-- footer section start -->
+   <hr class="w-full border-x-2 bg-black mb-5">
+   <p class="text-center">Copyright 2022 Creatives For You LTD</p>
+
+
+
+        <!-- link js -->
+         <script src="index.js"></script>
+</body>
+</html>

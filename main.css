@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    Body{
+        @apply font-plus ;
+    }
+    section{
+        @apply pt-16 pb-4 md:pt-20 ;
+    }
+}
+@layer utilities{
+   .count_text{
+    @apply text-[#2D3142] font-normal text-lg leading-[21.78px] dark:text-white;
+   }
+
+   .count{
+    @apply text-greenColor font-bold text-lg leading-[29.05px] text-center;
+   }
+   .learn_div{
+    @apply flex flex-row items-center gap-5 mb-9 ml-5;
+   }
+   .primary_text{
+    @apply font-semibold text-2xl leading-[30.24px] text-blackColor  mb-5 mt-5 ml-6 dark:text-white;
+   }
+   .paragraph_text{
+    @apply text-lg font-medium leading-[22.68px] text-paragraphColor text-wrap dark:text-white;
+   }
+   .skill_tag{
+    @apply border-secondaryColor rounded-full border-2 text-center px-1 mt-2  text-paragraphColor text-lg font-normal leading-[22.68px] dark:text-white;
+   }
+   .count_number{
+    @apply border border-blackColor dark:border-white py-1 px-6 rounded-full hover:bg-greenColor text-center;
+   }
+   .footer_paragraph{
+    @apply font-normal text-base text-[#20484F] mt-4 dark:text-white;
+   }
+  
+}
